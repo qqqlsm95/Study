@@ -1,0 +1,50 @@
+# C++ build files
+*.exe
+*.o
+*.out
+*.obj
+*.log
+
+# C# build files
+bin/
+obj/
+*.suo
+*.user
+
+# Python / AI
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+.idea/
+
+# Visual Studio 관련 무시 파일
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.obj
+*.exe
+*.pdb
+*.ipch
+*.log
+*.tlog
+*.idb
+*.opendb
+*.aps
+*.ncb
+*.ilk
+*.cache
+*.VC.db
+
+# OS / general
+.DS_Store
+Thumbs.db
+*.swp
