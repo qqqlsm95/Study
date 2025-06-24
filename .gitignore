@@ -1,37 +1,56 @@
-# C++ build files
-*.exe
-*.o
-*.out
-*.obj
-*.log
-
 # C# build files
 bin/
 obj/
+*.exe
+*.dll
+*.pdb
+*.cache
 *.suo
 *.user
+*.csproj.user
+*.csproj.vspscc
+*.vbproj.vspscc
+*.dbmdl
+*.bak
+*.Backup
+*.log
+*.tmp
 
-# Python / AI
-__pycache__/
-*.py[cod]
-.venv/
-.env
-.ipynb_checkpoints/
+# ASP.NET-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.azurePubxml
+*.publishsettings
+*.pubxml
+*.Publish.xml
+App_Data/
 
-# Jupyter
-*.ipynb_checkpoints/
+# Entity Framework
+*.edmx.diagram
+*.edmx.sql
 
-# VSCode
-.vscode/
+# Rider
 .idea/
+*.sln.iml
+
+# JetBrains Rider의 DotCover 파일
+*.dotCover
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.assets.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
 
 # Visual Studio 관련 무시 파일
 .vs/
-*.vcxproj.user
 *.suo
 *.user
-*.obj
-*.exe
+*.vcxproj.user
 *.pdb
 *.ipch
 *.log
@@ -41,10 +60,9 @@ __pycache__/
 *.aps
 *.ncb
 *.ilk
-*.cache
 *.VC.db
 
-# OS / general
+# 기타 OS 및 에디터
 .DS_Store
 Thumbs.db
 *.swp
