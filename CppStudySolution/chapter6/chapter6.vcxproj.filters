@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6.20.cpp">
+    <ClCompile Include="6.20_array.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="6.21.cpp">
+    <ClCompile Include="6.21_vector.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

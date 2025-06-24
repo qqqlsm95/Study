@@ -128,8 +128,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="6.20.cpp" />
-    <ClCompile Include="6.21.cpp" />
+    <ClCompile Include="6.20_array.cpp" />
+    <ClCompile Include="6.21_vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
