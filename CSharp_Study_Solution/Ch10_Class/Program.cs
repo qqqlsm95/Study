@@ -77,12 +77,35 @@ namespace Ch10_Class
 
 
             // 5. static
-
             ActorBase.Description = "공통된 변수";
             Console.WriteLine(ActorBase.Description);
             ActorBase.PrintDescription();
+
+
+            // 6. deepcopy
+
+            // shallow copy 객체의 주소만 가져옴
+            ActorBase actorBase = new ActorBase("진수");
+            ActorBase actorBase2 = actorBase;
+
+            // deepcopy 방법 2가지
+            ActorBase actorBase3 = actorBase.DeepCopy();
+            ActorBase actorBase4 = actorBase.Clone() as ActorBase;
+
+
+            // 7. 서브클래스
+            ActorBase actorBase1 = new ActorBase("민수");
+            ActorBase.Info info = new ActorBase.Info(optionType: 3, moveDirection: 2);
+
+
+            // 8. Interface, Abstract
+
+            // Abstract 경우 객체 생성이 불가능하다.
+            ActorBase actorBase1 = new ActorBase("민수");
+
+            // Interface 여러개 상속 가능하다.
+            IActor actor = new ExtraActor2("민수");
+
         }
-
-
     }
 }

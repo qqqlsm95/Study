@@ -16,5 +16,10 @@ namespace Ch10_Class.Actor
         {
             Console.WriteLine("화면 밖으로 신속하게 이동");
         }
+
+        public override void RemoveName()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
